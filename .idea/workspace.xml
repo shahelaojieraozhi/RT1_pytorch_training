@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbee413b-80b6-49bf-b9b4-7acaf841c32a" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataPreprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RT1_Dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RT1_Dataset_whole.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/action_rescale.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/action_tokenizer_detokenize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_emerge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddp_train_script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loss_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi_train_utils/distributed_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi_train_utils/train_eval_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotic_transformer_pytorch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotic_transformer_pytorch/robotic_transformer_pytorch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rt_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_train_multinodes.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -22,7 +22,7 @@ gsutil cp -R "gs://gresearch/robotics/fractal20220817_data/0.1.0" destination-di
 
 ```bash
 conda activate rt-tf
-# env rt-tf ref: rt-tf_requirements.txt
+# env rt-tf ref: env/rt-tf_requirements.txt
 
 python data_preprocessing/rt_data_generator_all.py
 
@@ -52,7 +52,7 @@ run rt_data_generator_pick_batch.py
 
 ```bash
 conda activate rt
-# env rt ref: rt_requirements.txt
+# env rt ref: env/rt_requirements.txt
 
 python DataPreprocess_batch_all.py
 

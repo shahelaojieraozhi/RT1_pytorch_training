@@ -20,7 +20,7 @@ Considering the disk size (currently my disk size is only 1T), the overall prepr
 
 ```bash
 conda activate rt-tf
-# env rt-tf ref: rt-tf_requirements.txt
+# env rt-tf ref: env/rt-tf_requirements.txt
 
 python data_preprocessing/rt_data_generator_all.py
 
@@ -48,7 +48,7 @@ Batch generate *episode_sec_len* .h5 files of episodes (pick object only task)
 
 ```bash
 conda activate rt
-# env rt ref: rt_requirements.txt
+# env rt ref: env/rt_requirements.txt
 
 python DataPreprocess_batch_all.py
 
