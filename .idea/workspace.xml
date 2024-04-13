@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbee413b-80b6-49bf-b9b4-7acaf841c32a" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataPreprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RT1_Dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RT1_Dataset_whole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/action_rescale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/action_tokenizer_detokenize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_emerge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddp_train_script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_train_utils/distributed_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_train_utils/train_eval_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotic_transformer_pytorch/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotic_transformer_pytorch/robotic_transformer_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rt_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_train_multinodes.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ezulEUpX3UfJqEWcmuxlF1xG7m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/python_code/PHD_project_code/robotic-transformer-pytorch-main/RT1_pytorch_training&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbee413b-80b6-49bf-b9b4-7acaf841c32a" name="Changes" comment="" />
+      <created>1712919876869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712919876869</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>
