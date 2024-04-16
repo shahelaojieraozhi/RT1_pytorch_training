@@ -97,11 +97,18 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env train_ddp.py
 
 <img src="./images/Snipaste_2024-04-12_16-31-01.jpg" ></img>
 
-
-
 开始训练，一个epoch大约需要4个小时
 
+------
 
+注：*pip install robotic-transformer-pytorch*。 安装完后，如果不能科学上网则需要下载T5模型需要调整一下T5的路径
+
+```bash
+change path
+在文件 /mnt/anaconda3/envs/rt/lib/python3.10/site-packages/classifier_free_guidance_pytorch/t5.py中修改
+
+DEFAULT_T5_NAME = '/mnt/robotic-transformer-pytorch/t5/t5-v1_1-base'(下载好的模型文件地址)
+```
 
 ------
 

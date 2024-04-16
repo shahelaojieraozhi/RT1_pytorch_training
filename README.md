@@ -95,6 +95,17 @@ Start training, one epoch takes about 4 hours
 
 ------
 
+note：*pip install robotic-transformer-pytorch* .After installation, if you can not scientifically surf the Internet, you need to download the T5 model and adjust the path of T5.
+
+```bash
+change path
+file: /mnt/anaconda3/envs/rt/lib/python3.10/site-packages/classifier_free_guidance_pytorch/t5.py
+
+DEFAULT_T5_NAME = '/mnt/robotic-transformer-pytorch/t5/t5-v1_1-base'(Downloaded model file address)
+```
+
+------
+
 *pick brown chip bag Task*
 
 <img src="./images/20240412163329.jpg" ></img>
