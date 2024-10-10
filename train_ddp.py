@@ -38,7 +38,6 @@ warnings.filterwarnings("ignore")
 
 
 def main(args):
-
     # 初始化各进程环境
     init_distributed_mode(args=args)
 
@@ -162,7 +161,7 @@ def main(args):
     # Scheduler https://arxiv.org/pdf/1812.01187.pdf
     lf = (
         lambda x: ((1 + math.cos(x * math.pi / args.epochs)) / 2) * (1 - args.lrf)
-        + args.lrf
+                  + args.lrf
     )  # cosine
     scheduler = lr_scheduler.LambdaLR(optimizer, lr_lambda=lf)
 
@@ -201,7 +200,6 @@ def main(args):
                 # reserve the last three model
                 os.remove(model_save_dir + "/model-{}.pth".format(epoch - 3))
                 os.remove(model_save_dir + "/optimizer-{}.pth".format(epoch - 3))
-
 
     cleanup()
 
@@ -242,7 +240,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--world-size", default=4, type=int, help="number of distributed processes"
     )
-
     parser.add_argument(
         "--dist-url", default="env://", help="url used to set up distributed training"
     )
